@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="C9ABFE5E-A73B-239C-7092-CFDA5B646F6D">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:29:09 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<sourcePk>9B8DE468-FC36-50D3-BF1B-63D942F4B291</sourcePk>
+<targetPk>FEE62A8E-F08D-B2EB-F308-CCFD5D798F14</targetPk>
+<identifying>false</identifying>
+<nameOnSource>doit partir</nameOnSource>
+<nameOnTarget>ëtre l&apos;origine de</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E5BE6A2A-C24D-9FB3-5D06-E03DFA98EA4A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EEFD25D9-BE68-BD78-C0B6-7A56CB426690</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

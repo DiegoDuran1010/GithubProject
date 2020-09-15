@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FA25016F-1B09-51AC-B35D-4EB67471391F" mainViewID="BA80AE58-1A95-0ED5-78F3-FB0AB754DA9B">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:03:20 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

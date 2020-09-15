@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF95E69C-DA21-9BEB-83B0-AE90FEC8D775" name="Bateau">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:12:59 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_bateau" id="9FA1AF9E-1229-EB65-5C30-3E4022961731">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:13:04 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="27D8C5DE-DB94-C59B-C8B3-BB6B7B631CFF">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:13:16 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacite" id="8C357443-149D-D9E2-8E39-39A7B582367C">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:13:52 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vitesse" id="11922C4E-A822-BE60-41EB-96526B271261">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:15:35 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nationalite" id="5E9AA110-591C-330C-3D62-8A77067A283A">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:26:18 UTC</createdTime>
+<generatorID>16AD1AE9-4FD7-CFEC-D5A9-875210C4EDFC</generatorID>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<referedAttribute>A9391CB7-57CC-2AA4-7883-74CACF5596D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D51763ED-BE21-9B80-38B6-DFA6AAC7BEDA" name="Entity_1 PK">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:13:19 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FA1AF9E-1229-EB65-5C30-3E4022961731</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

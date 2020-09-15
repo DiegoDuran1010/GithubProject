@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5BE6A2A-C24D-9FB3-5D06-E03DFA98EA4A" name="Voyage">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:16:41 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_voyage" id="127E5F32-6E3D-7E3F-3657-0B5EF48DFDD0">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:16:47 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="9304E397-A66D-4ACF-E440-BBDCCB6649E5">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:16:58 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_depart" id="A22AC4DB-8B49-ACE0-22AB-43A69D0F5FEB">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:17:30 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="0CB2E931-7570-D726-6260-8800BB1D8ABD">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:19:55 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bateau" id="5AAAA3F5-B7E8-255C-D926-1F85F70B9958">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:24:20 UTC</createdTime>
+<generatorID>DA51BDA0-D69F-ACC2-D5A2-57967B3945FF</generatorID>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<referedAttribute>9FA1AF9E-1229-EB65-5C30-3E4022961731</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_port" id="AA7F5E56-2DF6-1FC3-4565-6791F6F1BA6A">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:29:37 UTC</createdTime>
+<generatorID>C9ABFE5E-A73B-239C-7092-CFDA5B646F6D</generatorID>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<referedAttribute>79F1238A-04D2-A118-4C07-EEB3EEE92A8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_port1" id="2421DC39-2088-A678-118A-273162D7891D">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:31:26 UTC</createdTime>
+<generatorID>9D6252D4-C771-DD2B-DDAB-4996ECC2EB54</generatorID>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<referedAttribute>79F1238A-04D2-A118-4C07-EEB3EEE92A8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B8DE468-FC36-50D3-BF1B-63D942F4B291" name="Voyage PK">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:16:57 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>127E5F32-6E3D-7E3F-3657-0B5EF48DFDD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

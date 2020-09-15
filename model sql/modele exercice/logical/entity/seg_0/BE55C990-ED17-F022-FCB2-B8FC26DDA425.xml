@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE55C990-ED17-F022-FCB2-B8FC26DDA425" name="Nationaliité">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:14:59 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nationalite" id="A9391CB7-57CC-2AA4-7883-74CACF5596D1">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:15:16 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pays" id="D7E45923-2E97-39A0-660D-457FEB0B71D8">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:15:26 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="483C364A-E69B-BD60-906A-F5B3EF6A7C42" name="Nationaliité PK">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:15:22 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<engineerTo>
+<item key="57DCCC7D-2FB7-3CAD-49F6-4EF985DA9746" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9391CB7-57CC-2AA4-7883-74CACF5596D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

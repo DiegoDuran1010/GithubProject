@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="30058778-E173-0CCA-338F-A61B5DACB273">
+<createdBy>bad-b</createdBy>
+<createdTime>2020-09-15 18:03:20 UTC</createdTime>
+<ownerDesignName>modele exercice</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
